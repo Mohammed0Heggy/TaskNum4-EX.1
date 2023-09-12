@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.nav-bar {
+  background-color: #dc143c;
+  padding: 17px;
+
+}
+
+.nav-bar li {
+  display: inline-block;
+  margin-left: 32px;
+  color: #fff;
+}
+
+.header {
+  background-image: url(../images/ecomm.jpg);
+  height: 90vh;
+  background-repeat: no-repeat;
+  background-size: 100% 90vh;
+  padding: 20px 30px;
+  color: #fff;
+  margin-bottom: 100px;
+}
+
+.products {
+  text-align: center;
+}
+
+.product img {
+  width: 200px;
+  border: 3px solid #5f5c5c;
+  border-radius: 50%;
+}
+
+.product {
+  border: 2px solid #999;
+  width: 20%;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin: 40px 50px;
+  display: inline-block;
+}
+
+.product h3 {
+  font-size: 20px;
+  margin: 5px 0;
+}
+
+.product p {
+  color: #888;
+  margin-bottom: 20px;
+  line-height: 1.2;
+}
+
+.product a {
+  display: block;
+  background-color: #dc143c;
+  color: #fff;
+  text-decoration: none;
+  width: 25%;
+  padding: 8px 10px;
+  margin: auto;
+  border-radius: 4px;
+}
+
+.footer {
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+}
